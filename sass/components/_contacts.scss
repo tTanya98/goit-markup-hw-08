@@ -1,0 +1,39 @@
+.contact__list {
+    display: flex;
+    gap: 50px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact__item {
+    list-style-type: none;
+}
+
+.contact__link {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    transition: var(--anim-fast);
+
+  &:hover,
+  &:focus{
+    color: #2196f3
+  }
+}
+ 
+.contact__icon {
+    fill: currentColor;
+
+  &:hover,
+  &:focus {
+    color: #2196f3
+  }
+}
