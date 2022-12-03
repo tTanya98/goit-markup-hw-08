@@ -11,6 +11,7 @@
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding-left: 0;
     padding-right: 0;
@@ -19,7 +20,13 @@
 
   &__item {
     list-style-type: none;
-    width: 270px;
+    width: 450px;
+    @media screen and (min-width: 768px) {
+      flex-basis: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-basis: 270px;
+    }
   }
 }
 
