@@ -47,6 +47,9 @@
     color: var(--primary-title-color);
     margin-top: 30px;
     margin-bottom: 10px;
+    @media screen and (max-width: 480px) {
+      text-align: center;
+    }
   }
   
   .skills__text {
