@@ -1,8 +1,18 @@
 .nav {
   display: none;
-    // margin-right: auto;
-    // margin-left: 93px;
 
+    @media screen and (min-width:768px) {
+      display: flex;
+      margin-right: auto;
+      margin-left: 88px;
+    }
+
+    @media screen and (min-width:1200px) {
+      display: flex;
+      margin-right: auto;
+      margin-left: 93px;
+    }
+    
   &__list {
     display: flex;
     gap: 50px;

@@ -3,18 +3,36 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     gap: 30px;
     padding-left: 0;
     padding-right: 0;
     margin: 0;
+
+    @media screen and (min-width: 768px) {
+      flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
   }
 
   &__item {
     list-style-type: none;
-    width: 170px;
-    
+    width: 210px;
+
+    @media screen and (min-width:768px) {
+      width: 226px;
+    }
+
+    @media screen and (min-width:1200px) {
+      width: 170px;
+    }
   }
 }
 

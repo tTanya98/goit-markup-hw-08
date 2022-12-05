@@ -1,6 +1,6 @@
 .address {
-    margin-top: 20px;
-
+  margin-top: 28px;
+    
   &__list {
     padding-left: 0;
     padding-right: 0;
@@ -13,14 +13,14 @@
   }
 
   &__item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 12px;
   }
 }
   
   .address__street {
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #ffffff;
     text-decoration: none;
@@ -29,7 +29,7 @@
   .address__contact {
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
