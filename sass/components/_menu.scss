@@ -142,15 +142,21 @@
   padding-left: 0;
   margin-top: 64px;
   margin-bottom: 0%;
-  gap: 10px;
+  gap: 20px;
 }
 .mobile-socials-item {
+  position: relative;
   list-style-type: none;
 }
 
-.mobile-socials-item:not(:last-child) {
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-  padding-right: 10px;
+.mobile-socials-item:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: rgba(33,33,33,.2);
+  position: absolute;
+  top: 0;
+  right: -10px;
 }
 
 .mobile-socials-link {

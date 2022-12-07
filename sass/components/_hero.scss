@@ -29,7 +29,7 @@
       url("../images/Hero/hero_mob@2x.jpg");
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 481px) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
@@ -48,10 +48,27 @@
       }
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 769px) {
       padding-top: 200px;
       padding-bottom: 200px;
       height: 600px;
+      background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Hero/hero_des@1x.jpg");
+
+      @media (min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi), 
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/Hero/hero_des@2x.jpg");
+      }
     }
 }
 
