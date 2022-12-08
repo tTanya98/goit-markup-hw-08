@@ -11,15 +11,17 @@
       margin-left: auto;
       margin-right: auto;
       width: 100%;
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:767px) {
       flex-wrap: wrap;
       text-align: center;
     }
 
     @media screen and (min-width:768px) {
       display: flex;
+      flex-wrap:wrap;
       justify-content: space-around;      
       align-items: center;
+      text-align: center;
     }
 
     @media screen and (min-width:1200px) {

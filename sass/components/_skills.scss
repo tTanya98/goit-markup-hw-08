@@ -20,7 +20,7 @@
 
   &__item {
     list-style-type: none;
-    width: 450px;
+    width: 100%;
     @media screen and (min-width: 768px) {
       flex-basis: 354px;
     }
