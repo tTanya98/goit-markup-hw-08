@@ -47,7 +47,7 @@
     color: var(--primary-title-color);
     margin-top: 30px;
     margin-bottom: 10px;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       text-align: center;
     }
   }

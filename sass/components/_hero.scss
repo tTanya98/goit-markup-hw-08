@@ -49,8 +49,6 @@
     }
 
     @media screen and (min-width: 769px) {
-      padding-top: 200px;
-      padding-bottom: 200px;
       height: 600px;
       background-image: linear-gradient(
         to right,
@@ -69,6 +67,10 @@
         ),
         url("../images/Hero/hero_des@2x.jpg");
       }
+    }
+    @media screen and (min-width: 1200px) {
+      padding-top: 200px;
+      padding-bottom: 200px;   
     }
 }
 

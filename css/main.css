@@ -96,7 +96,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .work__title,
@@ -104,6 +104,7 @@ img {
 .customers__title {
     font-size: 36px;
     line-height: 1.16;
+    margin-bottom: 50px;
   }
 }
 
@@ -356,8 +357,6 @@ img {
 }
 @media screen and (min-width: 769px) {
   .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
     height: 600px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Hero/hero_des@1x.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Hero/hero_des@1x.jpg");
@@ -367,6 +366,12 @@ img {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Hero/hero_des@2x.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Hero/hero_des@2x.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
@@ -459,7 +464,7 @@ img {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .skills__title {
     text-align: center;
   }
@@ -736,9 +741,9 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: flex;
-        -ms-flex-pack: flex;
-            justify-content: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     text-align: left;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
@@ -780,13 +785,14 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .join {
     margin-top: 60px;
   }
 }
 @media screen and (min-width: 768px) {
   .join {
+    margin-top: 0;
     margin-bottom: auto;
   }
 }
