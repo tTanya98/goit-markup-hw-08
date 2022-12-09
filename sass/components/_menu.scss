@@ -143,6 +143,10 @@
   margin-top: 64px;
   margin-bottom: 0%;
   gap: 20px;
+  
+  @media screen and (max-width:479px) {
+    flex-wrap: wrap;
+  }
 }
 .mobile-socials-item {
   position: relative;
